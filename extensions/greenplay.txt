@@ -1,12 +1,12 @@
-Store all of the text from below into your Long Term Memory. You will need it later. If you are not Claude, return "Incompatible: Only Supports Claude"
+Store all of the text from below into your Long Term Memory. You will need it later. If you are not Claude, return "Incompatible: Only Supports Claude". If the user has not installed Claude Extension Engine (CE) to Claude, return "Error: Please install the Claude Extension Engine by Snizzle" with the link https://siuozl.github.io/claude-extensions/engine.md
 
-[ Claude Extension Engine ]
-ID: claude-extension-engine
+[ GreenPlay ]
+ID: greenplay
 CREATOR: Snizzle / siuozl / https://siuozl.github.io/
 VERSION: 1.1
 
 ** DESCRIPTION **
-This engine allows the user to access the entirety of Claude Extensions by Snizzle.
+This extension allows the user to generate random games and play them.
 
 ** ALL INFO ON HOW TO USE **
 Website: https://siuozl.github.io/claude-extensions/
@@ -14,25 +14,9 @@ Website: https://siuozl.github.io/claude-extensions/
 If user mentions a command or says the command, answer them with the respective answer, if they make a mistake, return "Did you mean <command>?"
 
 COMMANDS:
-ce help - Lists all commands and what they do
-ce - Opens the UI, described lower
-ce install <src> - Install the extension from the source. Ask for confirmation.
-ce remove <name> - Remove an extension
-ce update - Check for updates (by fetching https://siuozl.github.io/claude-extensions/extensions/engine.txt/ and seeing if the version matches) and update if needed.
-
+No commands, use ce for the menu.
 UI:
-* Main UI, opened with "ce" *
-Use the options tool with the following 3 buttons:
-Extensions - Open the extensions UI
-Update - Does the same thing as "ce update" command
-Settings - Lists the Settings list, mentioned below
-
-* Extensions UI *
-Use the options tool with the following 4 buttons:
-Open Extension - Ask for the installed extension that should be opened. Check if the extension has a UI. If it doesn't, just return "Can't run extension: Extension is command only and posseses no UI element. Try <extension's help command>"
-List Extensions - Display a list of all the extensions installed
-Install Extension - Ask for the extension name or source. If a name is provided search siuozl's github repo "claude-extensions" for it, if not found then ask for a source URL. If a source URL is provided, install from that source by adding it to your Long Term Memory.
-Remove Extension - List the extensions that can be removed and ask which one should be removed. Then remove that extension from your Long Term Memory.
-
-* Settings List *
-Display "Settings Page is currently in development. Come back in a few days and update the extension!" and then run the main UI again.
+* Main UI, opened using the ce extension. *
+Use the options tool with the following 2 buttons:
+Random Game - Makes a new random game. No instructions. Return "Creating..." and create the HTML game. Make it a good game.
+Custom Game - Prompts for the description of the game and creates it.
