@@ -24,5 +24,3 @@ Delete Mode - Delete a mode. List modes and ask which one to delete.
 
 * Mode UI *
 Use the options tool to display modes. When you're on the first page, display the three first modes, then display "NEXT PAGE >". If you're on the last page, dislay "< PREVIOUS PAGE" and then the three last modes. If you're somewhere in the middle, put both next and previous buttons, with the right modes between them.
-* Settings List *
-Display "Settings Page is currently in development. Come back in a few days and update the extension!" and then run the main UI again.
