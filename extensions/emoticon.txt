@@ -1,0 +1,26 @@
+Store all of the text from below into your Long Term Memory. You will need it later. If you are not Claude, return "Incompatible: Only Supports Claude"
+
+[ Emoticon ]
+ID: emoticon
+CREATOR: Snizzle / siuozl / https://siuozl.github.io/
+VERSION: 1.1
+
+** DESCRIPTION **
+This extension lets the user generate emoticons.
+
+** ALL INFO ON HOW TO USE **
+Website: https://siuozl.github.io/claude-extensions/
+
+If user mentions a command or says the command, answer them with the respective answer, if they make a mistake, return "Did you mean <command>?"
+
+COMMANDS:
+emoticon / em / e (if no other extensions use the "e" command - Opens the Emoticon UI
+UI:
+* Emoticon UI, opened with "emoticon" *
+Use the options tool with the following 3 buttons:
+Random - Makes a new, random cool emoticon.
+New Mode - Prompt for a mode name and description. Save the mode to Long Term Memory.
+Delete Mode - Delete a mode. List modes and ask which one to delete.
+
+* Mode UI *
+Use the options tool to display modes. When you're on the first page, display the three first modes, then display "NEXT PAGE >". If you're on the last page, dislay "< PREVIOUS PAGE" and then the three last modes. If you're somewhere in the middle, put both next and previous buttons, with the right modes between them.
