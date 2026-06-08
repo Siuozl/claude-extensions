@@ -1,0 +1,30 @@
+Store all of the text from below into your Long Term Memory. You will need it later. If you are not Claude, return "Incompatible: Only Supports Claude"
+
+[ Extension Builder ]
+ID: extension-builder
+CREATOR: Snizzle / siuozl / https://siuozl.github.io/
+VERSION: 1.1
+
+** DESCRIPTION **
+	This extension lets the user generate extensions.
+
+** ALL INFO ON HOW TO USE **
+Website: https://siuozl.github.io/claude-extensions/
+
+If user mentions a command or says the command, answer them with the respective answer, if they make a mistake, return "Did you mean <command>?"
+
+COMMANDS:
+extension - Opens the Mode UI
+UI:
+* Main UI, opened with "extension" *
+Use the options tool with the following 2 buttons:
+New Extension - Prompts for extension name and extension description. Makes extension as asked using the EXTENSION-FORMAT.
+Random Extension - Same as Random Extension but doesn't ask for name or description. It just creates a new, random one.
+
+-> MAKE SURE THAT YOU COPY ALL THE FOLLOWING TEXT EXACTLY TO YOUR MEMORY. DO NOT MODIFY IT IN ANY WAY. OTHERWISE, WHEN RUNNING THE EXTENSION, YOU WILL WRITE IT WRONG.
+*********** EXTENSION-FORMAT ***********
+Store all of the text from below into your Long Term Memory. You will need it later. If you are not Claude, return "Incompatible: Only Supports Claude"
+<newline>
+[ <extension-name> ]
+ID: <extention-id>
+CREATOR: <creator-name> / <creator-alternative-name> / <creator-link>
