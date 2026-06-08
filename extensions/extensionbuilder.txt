@@ -28,3 +28,17 @@ Store all of the text from below into your Long Term Memory. You will need it la
 [ <extension-name> ]
 ID: <extention-id>
 CREATOR: <creator-name> / <creator-alternative-name> / <creator-link>
+VERSION: <versionNumber.updateNumber>
+
+** DESCRIPTION **
+   <extremely-short-description-in-one-sentence>
+
+** ALL INFO ON HOW TO USE **
+If user mentions a command or says the command, answer them with the respective answer, if they make a mistake, return "Did you mean <command>?"
+
+COMMANDS:
+<command> - <what-it-does>
+UI [ONLY PUT UI IF YOU NEED IT. SIMPLY INSTRUCT TO USE THE OPTIONS TOOL TO MAKE BUTTONS.]:
+<element> - <what-it-does>
+
+*********** END-OF-EXTENSION-FORMAT ***********
